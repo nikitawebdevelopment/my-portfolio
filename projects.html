@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikita's Portfolio</title>
+    <title>Projects - Nikita's Portfolio</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f5f5;
+            background-color: #f4f4f4;
         }
-        
+
         header {
             background: #333;
             color: white;
             padding: 20px;
             text-align: center;
         }
-        
+
+        h1 {
+            margin: 0;
+        }
+
         .projects {
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 20px;
             padding: 30px;
-            justify-content: center;
         }
-        
+
         .card {
             background: white;
             width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
             text-align: center;
         }
-        
+
         .card h3 {
-            margin: 10px 0;
+            margin-top: 0;
         }
-        
+
         .btn {
             display: inline-block;
-            margin-top: 15px;
+            margin-top: 10px;
+            padding: 10px 15px;
             background: #333;
             color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
             text-decoration: none;
+            border-radius: 5px;
             font-size: 14px;
         }
-        
+
         .btn:hover {
             background: #555;
         }
@@ -60,32 +64,37 @@
 
 <body>
 
-    <header>
-        <h1>Nikita's Portfolio</h1>
-    </header>
+<header>
+    <h1>Nikita's Portfolio</h1>
+</header>
 
-    <section class="projects">
+<section class="projects">
 
-        <div class="card">
-            <h3>My Portfolio Website</h3>
-            <p>My personal portfolio made using HTML, CSS, and JavaScript.</p>
-            <a href="https://nikitawebdevelopment.github.io/my-portfolio/" class="btn" target="_blank">View Project</a>
-        </div>
+    <!-- Portfolio Project -->
+    <div class="card">
+        <h3>My Portfolio Website</h3>
+        <p>My personal portfolio made using HTML, CSS, and JavaScript.</p>
+        <a href="https://nikitawebdevelopment.github.io/my-portfolio/" 
+           class="btn" target="_blank">View Project</a>
+    </div>
 
-        <div class="card">
-            <h3>Weather App</h3>
-            <p>Shows real-time weather using API.</p>
-            <a href="https://nikitawebdevelopment.github.io/Weather-App/" class="btn" target="_blank">View Project</a>
-        </div>
+    <!-- Weather App Project -->
+    <div class="card">
+        <h3>Weather App</h3>
+        <p>Shows real-time weather using API.</p>
+        <a href="https://nikitawebdevelopment.github.io/Weather-app/" 
+           class="btn" target="_blank">View Project</a>
+    </div>
 
-        <div class="card">
-            <h3>To-Do App</h3>
-            <p>A simple and clean task manager app.</p>
-            <a href="https://nikitawebdevelopment.github.io/todo-app/" class="btn" target="_blank">View Project</a>
-        </div>
+    <!-- To-Do App Project -->
+    <div class="card">
+        <h3>To-Do App</h3>
+        <p>A simple and clean task manager app.</p>
+        <a href="https://nikitawebdevelopment.github.io/todo-app/" 
+           class="btn" target="_blank">View Project</a>
+    </div>
 
-    </section>
+</section>
 
 </body>
-
 </html>
